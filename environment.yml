@@ -2,6 +2,7 @@ name: mygenericbinder8
 channels:
   - intel
   - conda-forge
+  - johnsnowlabs
   - defaults
 dependencies:
   - pip=19.3.1
