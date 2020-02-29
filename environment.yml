@@ -1,0 +1,21 @@
+name: mygenericbinder8
+channels:
+  - intel
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=19.3.1
+  - python=3.7.5
+  - pyspark
+  - spark-nlp
+  - pip:
+    - pandas
+    - matplotlib
+    - plotly
+    - seaborn
+    - numpy
+    - streamlit
+    - jupyter-server-proxy
+    - nbserverproxy
+    - nbgitpuller
+    - nbconvert
